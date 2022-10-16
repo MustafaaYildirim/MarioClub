@@ -1,12 +1,14 @@
-body ul li h1 h2 a{
+body, ul, li, h1, h2, a{
     font-family: arial;
     margin: 0px;
+    padding: 0px;
 }
 header{
     background-color: #b43232;
     text-align: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
     top: 0;
     left: 0;
     padding: 20px;
@@ -15,8 +17,21 @@ header h1{
     display: inline-block;
     color: white;
     border: 8px solid white;
-    z-index: 1;
-    border-radius: 28%;
     border-image: initial;
+    border-radius: 30%;
     padding: 6px 12px;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner .welcome{
+    background-color: rgb(255, 208, 0);
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    padding: 30px;
 }
