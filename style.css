@@ -146,3 +146,60 @@ p::after{
 footer p::after{
     content:''
 }
+@media screen and (max-width: 1400px){
+    .banner h2{
+        font-size: 40px;
+    }
+    .banner h2 span{
+        font-size: 55px;
+    }
+    nav li{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 920px){
+    .banner h2{
+        font-size: 30px;
+    }
+    .banner h2 span{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 700px){
+   .banner .welcome{
+    position: relative;
+    padding: 9px;
+    text-align: center;
+   }
+  
+   .banner h2 br{
+    display: none;
+   }
+   .banner h2{
+    font-size: 25px;
+    }
+.banner h2 span{
+    font-size: 28px;
+    }
+    .images li{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width: 520px){
+    nav li{
+        font-size: 18px;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    nav ul li{
+        display: block;
+    }
+    header{
+        position: relative;
+    }
+    nav{
+        top: 0;
+    }
+}
